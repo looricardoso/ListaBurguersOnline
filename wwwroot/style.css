@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: url(background-index.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+table {
+    border: 1px solid black;
+    border-inline: inherit;
+    border-collapse: collapse;
+    font-size: 1.5em;
+    width: 500px;
+}
+
+#bgName, #bgPrice {
+    background-color: silver;
+}
+
+#tabela {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 25px;
+    padding: 50px;
+}
